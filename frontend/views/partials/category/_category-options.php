@@ -11,7 +11,7 @@
 ?>
 
 <div class="row">
-    <div class="container">
+
 
         <?php if ($categoriesSplit['productsCarrying']):?>
         <div class="category-options col-xs-6 col-md-4">
@@ -77,5 +77,5 @@
                 ?>
             </div>
         <?php endif;?>
-    </div>
+
 </div>

@@ -11,7 +11,7 @@ if ($productsSort)
 <div class="wrap wrap-products">
     <div class="container">
 
-        <div class="row">
+
             <?= $this->render('/partials/category/_category-options', [
 
                 'categoriesData' => $categoriesData,
@@ -19,7 +19,7 @@ if ($productsSort)
                 'categoriesSplit' => $categoriesSplit,
 
             ]); ?>
-        </div>
+
         <hr>
         <div class="row">
             <?php foreach ($productsData as $product): ?>
