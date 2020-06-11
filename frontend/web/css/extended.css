@@ -487,6 +487,15 @@ img.brand-image{
 
 }
 
+.feedback-btn{
+
+    font-size: 15px!important;
+    width: 100px!important;
+    margin-right: 0px!important;
+
+}
+
+
 
 .main-btn:hover{
 
@@ -545,6 +554,12 @@ img.brand-image{
 
 }
 
+
+.div-main-regions {
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
 
 .div-main-products {
     text-align: center;

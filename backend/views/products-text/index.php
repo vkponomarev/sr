@@ -31,6 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'languages_id',
             'title',
             'h1',
+            'plates_title',
             //'description',
             //'text1:ntext',
             //'text2:ntext',

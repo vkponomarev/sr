@@ -18,7 +18,7 @@ class ProductsTextSearch extends ProductsText
     {
         return [
             [['id', 'products_id', 'languages_id', 'active'], 'integer'],
-            [['title', 'h1', 'description', 'text1', 'text2'], 'safe'],
+            [['title', 'h1', 'description', 'text1', 'text2', 'plates_title'], 'safe'],
         ];
     }
 
@@ -66,6 +66,7 @@ class ProductsTextSearch extends ProductsText
 
         $query->andFilterWhere(['like', 'title', $this->title])
             ->andFilterWhere(['like', 'h1', $this->h1])
+            ->andFilterWhere(['like', 'plates_title', $this->h1])
             ->andFilterWhere(['like', 'description', $this->description])
             ->andFilterWhere(['like', 'text1', $this->text1])
             ->andFilterWhere(['like', 'text2', $this->text2]);

@@ -36,7 +36,7 @@ class ProductsText extends \yii\db\ActiveRecord
             [['products_id', 'languages_id', 'active'], 'required'],
             [['products_id', 'languages_id', 'active'], 'integer'],
             [['text1', 'text2'], 'string'],
-            [['title', 'h1', 'description'], 'string', 'max' => 255],
+            [['title', 'h1', 'description', 'plates_title'], 'string', 'max' => 255],
         ];
     }
 
@@ -51,6 +51,7 @@ class ProductsText extends \yii\db\ActiveRecord
             'languages_id' => 'Languages ID',
             'title' => 'Title',
             'h1' => 'H1',
+            'plates_title' => 'plates_title',
             'description' => 'Description',
             'text1' => 'Text1',
             'text2' => 'Text2',

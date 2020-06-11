@@ -25,6 +25,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'h1') ?>
 
+    <?= $form->field($model, 'plates_title') ?>
+
     <?php // echo $form->field($model, 'description') ?>
 
     <?php // echo $form->field($model, 'text1') ?>

@@ -58,7 +58,7 @@ Yii::$app->params['senderName'] = 'Admin';
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-                <?= Html::submitButton('Отправить', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
+                <?= Html::submitButton('Отправить', ['class' => 'btn btn-success main-btn feedback-btn', 'name' => 'contact-button']) ?>
             </div>
 
             <?php ActiveForm::end(); ?>

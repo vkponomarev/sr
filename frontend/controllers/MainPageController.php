@@ -8,6 +8,7 @@ use common\components\mainPagesData\MainPagesData;
 use common\components\products\Products;
 
 use common\components\subDomain\SubDomain;
+use common\components\subDomains\SubDomains;
 use yii;
 use yii\web\Controller;
 
@@ -39,11 +40,6 @@ class MainPageController extends Controller
 
     public function actionIndex()
     {
-
-
-
-
-
         //(new \common\components\dump\Dump())->printR($domain);
         $mainPagesData = new MainPagesData('index-1','pages');
         //(new \common\components\dump\Dump())->printR($domain);
@@ -56,19 +52,15 @@ class MainPageController extends Controller
         //$products = new Products();
         //$categoryData = $products->data(2, $mainPagesData->currentLanguage['id']);
         //(new \common\components\dump\Dump())->printR();
+
+        $subDomains = new SubDomains();
+        $subDomainsData = $subDomains->data();
+
+
         return $this->render('index', [
 
             'categoriesData' => $categoriesData,
-
-
-/*
-
-            'artistByPopularity' => $artistByPopularity,
-            'albumsByPopularity' => $albumsByPopularity,
-            'songsByPopularity' => $songsByPopularity,
-            'songByYoutube' => $songByYoutube,
-
-*/
+            'subDomainsData' => $subDomainsData,
 
         ]);
 

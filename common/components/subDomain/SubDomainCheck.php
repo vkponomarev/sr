@@ -2,6 +2,7 @@
 
 namespace common\components\subDomain;
 
+use http\Exception\RuntimeException;
 use Yii;
 use yii\web\NotFoundHttpException;
 
@@ -13,7 +14,7 @@ class SubDomainCheck
 
         if ($subDomain <> 'skladder'){
 
-            $findSubDomain = Yii::$app->db
+            $subDomainData = Yii::$app->db
                 ->createCommand('
             select
             *
@@ -22,21 +23,19 @@ class SubDomainCheck
             where
             domain = :subDomain
             ', [':subDomain' => $subDomain])
-                ->queryAll();
+                ->queryOne();
             //echo $id;
             //(new \common\components\dump\Dump())->printR($artistsAlbums);
 
-            if ($findSubDomain){
+            if ($subDomainData){
 
-                return $subDomain;
+                return $subDomainData;
 
             } else {
 
                 throw new NotFoundHttpException('404');
 
             }
-
-
 
         } else {
 

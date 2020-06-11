@@ -30,7 +30,7 @@ if ($productsSort)
                         <img class="main-page-image" src="/files/products/<?= $productsImages[$product['id']][1] ?>">
 
                         <br>
-                        <?= $product['h1'] ?>
+                        <?= $product['plates_title'] ?>
                     </a>
 
                 </div>

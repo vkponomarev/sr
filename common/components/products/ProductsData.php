@@ -21,6 +21,7 @@ class ProductsData
             products.carrying,
             products_text.title,
             products_text.h1,
+            products_text.plates_title,
             products_text.description,
             products_text.text1,
             products_text.text2

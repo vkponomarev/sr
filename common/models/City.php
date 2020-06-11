@@ -29,7 +29,7 @@ class City extends \yii\db\ActiveRecord
     {
         return [
             [['domain', 'text1', 'text2'], 'required'],
-            [['domain', 'text1', 'text2'], 'string', 'max' => 255],
+            [['domain', 'text1', 'text2', 'name'], 'string', 'max' => 255],
         ];
     }
 
@@ -43,6 +43,7 @@ class City extends \yii\db\ActiveRecord
             'domain' => 'Domain',
             'text1' => 'Text1',
             'text2' => 'Text2',
+            'name' => 'name',
         ];
     }
 }

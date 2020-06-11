@@ -257,5 +257,13 @@
 
 ]); ?>
 
+<div class="wrap main-spacer">
+</div>
+
+
+
+<?= $this->render('/partials/sub-domains/_sub-domains', [
+    'subDomainsData' => $subDomainsData,
+]); ?>
 
 

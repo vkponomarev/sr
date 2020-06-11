@@ -24,10 +24,10 @@ class SubDomain
 
     }
 
-    function updatePageText($subDomainCheck)
+    function updatePageText($subDomainData)
     {
 
-        (new SubDomainUpdatePageText())->update($subDomainCheck);
+        (new SubDomainUpdatePageText())->update($subDomainData);
 
     }
 

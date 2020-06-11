@@ -4,7 +4,6 @@ namespace common\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\City;
 
 /**
  * CitySearch represents the model behind the search form of `common\models\City`.
@@ -18,7 +17,7 @@ class CitySearch extends City
     {
         return [
             [['id'], 'integer'],
-            [['domain', 'text1', 'text2'], 'safe'],
+            [['domain', 'text1', 'text2', 'name'], 'safe'],
         ];
     }
 
@@ -63,8 +62,8 @@ class CitySearch extends City
 
         $query->andFilterWhere(['like', 'domain', $this->domain])
             ->andFilterWhere(['like', 'text1', $this->text1])
-            ->andFilterWhere(['like', 'text2', $this->text2]);
-
+            ->andFilterWhere(['like', 'text2', $this->text2])
+            ->andFilterWhere(['like', 'name', $this->text2]);
         return $dataProvider;
     }
 }
