@@ -8,62 +8,31 @@
  * <div class="wrap main-spacer">
 </div>
 
-<div class="wrap wrap-main-partners">
-    <div class="container">
 
 
-        <div class="container main-page-headers">
-            Наши партнеры
-        </div>
-        <br><br>
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
 
-            <img src="/files/partners/aeroflot.png" width="200">
 
-        </div>
+<div class="div-company-pictures col-xs-6 col-sm-6 col-md-3">
 
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
-            <img src="/files/partners/inter.png" width="200">
-
-        </div>
-
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
-            <img src="/files/partners/mmk.png" width="200">
-
-        </div>
-
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
-            <img src="/files/partners/oboron-service.png" width="200">
-
-        </div>
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
-            <img src="/files/partners/pochta-rossii.png" width="200">
-
-        </div>
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
-            <img src="/files/partners/ros-telekom.png" width="200">
-
-        </div>
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
-            <img src="/files/partners/rosneft.png" width="200">
-
-        </div>
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
-            <img src="/files/partners/rus-gidro.png" width="200">
-
-        </div>
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
-            <img src="/files/partners/tat-neft.png" width="200">
-
-        </div>
-        <div class="div-main-partners col-xs-6 col-sm-4 col-md-3">
-            <img src="/files/partners/ural-kalii.png" width="200">
-
-        </div>
-    </div>
-
-</div>
-
+                <a href="/files/documents/sertifikat-1.jpg" rel="fancybox" data-fancybox="gallery">
+                    <img class="img-company" src="/files/documents/sertifikat-1.jpg" height="100%">
+                </a>
+            </div>
+            <div class="div-company-pictures col-xs-6 col-sm-6 col-md-3">
+                <a href="/files/documents/sertifikat-2.jpg" rel="fancybox" data-fancybox="gallery">
+                    <img class="img-company" src="/files/documents/sertifikat-2.jpg" height="100%">
+                </a>
+            </div>
+            <div class="div-company-pictures col-xs-6 col-sm-6 col-md-3">
+                <a href="/files/documents/sertifikat-3.jpg" rel="fancybox" data-fancybox="gallery">
+                    <img class="img-company" src="/files/documents/sertifikat-3.jpg" height="100%">
+                </a>
+            </div>
+            <div class="div-company-pictures col-xs-6 col-sm-6 col-md-3">
+                <a href="/files/documents/sertifikat-4.jpg" rel="fancybox" data-fancybox="gallery">
+                    <img class="img-company" src="/files/documents/sertifikat-4.jpg" height="100%">
+                </a>
+            </div>
  *
  * */
 
@@ -97,8 +66,12 @@
                 от официального дистрибьютора
             </span>
                 <br><br>
-                <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">Получить<br>консультацию</button>
-                <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">Получить<br>прайс-лист</button>
+                <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">
+                    Получить<br>консультацию
+                </button>
+                <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">
+                    Получить<br>прайс-лист
+                </button>
 
             </div>
 
@@ -173,81 +146,34 @@
 </div>
 
 
-<div class="wrap wrap-company">
-    <div class="container main-page-headers">
-        <a name="production"></a>Наша компания
-    </div>
-    <div class="container company-container">
-        <div class="row">
-            <div class="div-main-company col-xs-12 col-sm-12 col-md-12">
-                <hr class="text-hr">
-                <span class="text-header-two">Мы являемся официальным дистрибьютором спецтехники и запчастей для погрузчиков JAC</span><br><br>
-            </div>
-        </div>
-        <br>
-        <div class="row">
 
-            <div class="div-company-pictures col-xs-6 col-sm-6 col-md-3">
 
-                <a href="/files/documents/sertifikat-1.jpg" rel="fancybox" data-fancybox="gallery">
-                <img class="img-company" src="/files/documents/sertifikat-1.jpg" height="100%">
-                </a>
-            </div>
-            <div class="div-company-pictures col-xs-6 col-sm-6 col-md-3">
-                <a href="/files/documents/sertifikat-2.jpg" rel="fancybox" data-fancybox="gallery">
-                    <img class="img-company" src="/files/documents/sertifikat-2.jpg" height="100%">
-                </a>
-            </div>
-            <div class="div-company-pictures col-xs-6 col-sm-6 col-md-3">
-                <a href="/files/documents/sertifikat-3.jpg" rel="fancybox" data-fancybox="gallery">
-                    <img class="img-company" src="/files/documents/sertifikat-3.jpg" height="100%">
-                </a>
-            </div>
-            <div class="div-company-pictures col-xs-6 col-sm-6 col-md-3">
-                <a href="/files/documents/sertifikat-4.jpg" rel="fancybox" data-fancybox="gallery">
-                    <img class="img-company" src="/files/documents/sertifikat-4.jpg" height="100%">
-                </a>
-            </div>
-        </div>
+<?= $this->render('/partials/company/_company', [
 
-        <br> <br> <br>
+]); ?>
 
-        <div class="row">
-            <div class="div-main-company col-xs-12 col-sm-12 col-md-12">
-                <hr class="text-hr">
-                <span class="text-header-two">Организаторы «Формулы-1» выбрали из множества претендентов именно погрузчики, предоставляемые нашей компанией</span><br><br>
-            </div>
-        </div>
-        <br>
-        <div class="row">
 
-            <div class="div-company-pictures-2 col-xs-6 col-sm-6 col-md-6">
-
-                <a href="/files/documents/formula1.jpg" rel="fancybox" data-fancybox="gallery">
-                    <img class="img-company" src="/files/documents/formula1.jpg" width="90%">
-                </a>
-            </div>
-            <div class="div-company-pictures-2 col-xs-6 col-sm-6 col-md-6">
-                <a href="/files/documents/formula2.jpg" rel="fancybox" data-fancybox="gallery">
-                    <img class="img-company" src="/files/documents/formula2.jpg" width="90%">
-                </a>
-            </div>
-            <div class="div-company-pictures-2 col-xs-6 col-sm-6 col-md-6">
-                <a href="/files/documents/formula3.jpg" rel="fancybox" data-fancybox="gallery">
-                    <img class="img-company" src="/files/documents/formula3.jpg" width="90%">
-                </a>
-            </div>
-            <div class="div-company-pictures-2 col-xs-6 col-sm-6 col-md-6">
-                <a href="/files/documents/formula4.jpg" rel="fancybox" data-fancybox="gallery">
-                    <img class="img-company" src="/files/documents/formula4.jpg" width="90%">
-                </a>
-            </div>
-        </div>
-
-    </div>
-
+<div class="wrap main-spacer">
 </div>
 
+<?= $this->render('/partials/documents/_documents', [
+
+]); ?>
+
+
+<div class="wrap main-spacer">
+</div>
+
+<?= $this->render('/partials/partners/_partners', [
+
+]); ?>
+
+<div class="wrap main-spacer">
+</div>
+
+<?= $this->render('/partials/lising/_lising', [
+
+]); ?>
 
 <div class="wrap main-spacer">
 </div>
@@ -257,13 +183,8 @@
 
 ]); ?>
 
-<div class="wrap main-spacer">
-</div>
 
 
 
-<?= $this->render('/partials/sub-domains/_sub-domains', [
-    'subDomainsData' => $subDomainsData,
-]); ?>
 
 

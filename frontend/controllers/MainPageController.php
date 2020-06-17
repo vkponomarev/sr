@@ -53,14 +53,13 @@ class MainPageController extends Controller
         //$categoryData = $products->data(2, $mainPagesData->currentLanguage['id']);
         //(new \common\components\dump\Dump())->printR();
 
-        $subDomains = new SubDomains();
-        $subDomainsData = $subDomains->data();
+
 
 
         return $this->render('index', [
 
             'categoriesData' => $categoriesData,
-            'subDomainsData' => $subDomainsData,
+
 
         ]);
 

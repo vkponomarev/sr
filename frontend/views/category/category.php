@@ -35,8 +35,16 @@
                 от официального дистрибьютора
             </span>
                 <br><br>
-                <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">Получить<br>консультацию</button>
-                <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">Получить<br>прайс-лист</button>
+                <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">
+                    Получить<br>консультацию
+                </button>
+                <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">
+                    Получить<br>прайс-лист
+                </button>
+                <br><br>
+                <span class="main-text">
+                Тел: 887497-79879-4
+            </span>
 
             </div>
 
@@ -49,11 +57,7 @@
 </div>
 
 
-
-
-
-
-<?= $this->render('/partials/products/_products-data',[
+<?= $this->render('/partials/products/_products-data', [
 
     'productsData' => $productsData,
     'productsSort' => $productsSort,
@@ -61,6 +65,45 @@
     'categoriesData' => $categoriesData,
     'categoryData' => $categoryData,
     'categoriesSplit' => $categoriesSplit,
+
+]); ?>
+
+<div class="wrap main-spacer">
+</div>
+
+
+<?= $this->render('/partials/company/_company', [
+
+]); ?>
+
+
+<div class="wrap main-spacer">
+</div>
+
+<?= $this->render('/partials/documents/_documents', [
+
+]); ?>
+
+
+<div class="wrap main-spacer">
+</div>
+
+<?= $this->render('/partials/partners/_partners', [
+
+]); ?>
+
+<div class="wrap main-spacer">
+</div>
+
+<?= $this->render('/partials/lising/_lising', [
+
+]); ?>
+
+<div class="wrap main-spacer">
+</div>
+
+
+<?= $this->render('/partials/contacts/_contacts', [
 
 ]); ?>
 

@@ -152,7 +152,7 @@ echo \newerton\fancybox\FancyBox::widget([
     <div class="container">
 
 
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <ul class="contact">
                 <span><?= Yii::t('app', 'SKLADDER.RU') ?></span>
 
@@ -166,16 +166,19 @@ echo \newerton\fancybox\FancyBox::widget([
                        rel="nofollow"><?= Yii::t('app', 'Privacy policy') ?></a>
                 </li>
 
+                <li>
+                    <a href="/cms/regions-5832/"
+                       rel="nofollow"><?= Yii::t('app', 'Регионы') ?></a>
+                </li>
+
 
             </ul>
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
             <br> <br>
             <span class="main-contacts-phone">ТЕЛ: 8967-445-445-4</span>
-
-
         </div>
 
     </div>

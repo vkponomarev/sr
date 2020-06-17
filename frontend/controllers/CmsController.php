@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 
+use common\components\subDomains\SubDomains;
 use common\models\components\WomanCalendars;
 use common\models\Mail;
 use common\components\mainPagesData\MainPagesData;
@@ -69,5 +70,22 @@ class CmsController extends Controller
         ]);
 
     }
+
+
+
+    public function actionRegions()
+    {
+
+        $mainPagesData = new MainPagesData('regions-5832', 'pages');
+
+        $subDomains = new SubDomains();
+        $subDomainsData = $subDomains->data();
+
+        return $this->render('regions', [
+            'subDomainsData' => $subDomainsData,
+        ]);
+
+    }
+
 
 }

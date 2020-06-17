@@ -51,7 +51,7 @@ return [
             //'enableDefaultLanguageUrlCode' => true,
             'rules' => [
                 '/' => 'main-page/index',
-                "http://<domain>.skladder.loc/" => 'main-page/index',
+                //"http://<domain>.skladder.loc/" => 'main-page/index',
                 //'http://<domain>.skladder.loc/' => 'main-page/index',
                 //'http://<domain: w="">.test.int/' => 'site/index',
                 '/category' => 'category/index',
@@ -65,6 +65,7 @@ return [
                 '/cms/policy-5830' => 'cms/policy',
                 '/cms/company-4' => 'cms/company',
                 '/cms/contacts-5831' => 'cms/contacts',
+                '/cms/regions-5832' => 'cms/regions',
             ],
 
             'suffix' => '/',
