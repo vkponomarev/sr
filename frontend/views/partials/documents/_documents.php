@@ -12,7 +12,7 @@
 
         <hr class="text-hr">
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <?php
                 $carousel = [
                     [
@@ -80,7 +80,7 @@
                 ?>
 
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <span class="text-header-two">У нас имеются все необходимые документы и сертификаты.</span><br><br>
                 Вы не переплачиваете за технику, получая её от официального представителя в России по заводским ценам без посредников.<br><br>
 

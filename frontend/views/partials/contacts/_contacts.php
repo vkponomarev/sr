@@ -15,7 +15,7 @@
         <div class="div-main-contacts col-xs-12 col-sm-12 col-md-6">
 
             <span class="text-header-two">Ваш персональный менеджер</span><br><br>
-            <img src="/files/main-page-products/electro-telejki.jpg" width="300">
+            <img src="/files/main-page-products/electro-telejki.jpg" width="100%">
         </div>
 
         <div class="div-main-contacts col-xs-12 col-sm-12 col-md-6">

@@ -158,16 +158,16 @@ echo \newerton\fancybox\FancyBox::widget([
 
 
                 <li>
-                    <a href="/cms/cookie-3/"
+                    <a class="footer-a" href="/cms/cookie-3/"
                        rel="nofollow"><?= Yii::t('app', 'Cookie info') ?></a>
                 </li>
                 <li>
-                    <a href="/cms/policy-5830/"
+                    <a class="footer-a" href="/cms/policy-5830/"
                        rel="nofollow"><?= Yii::t('app', 'Privacy policy') ?></a>
                 </li>
 
                 <li>
-                    <a href="/cms/regions-5832/"
+                    <a class="footer-a" href="/cms/regions-5832/"
                        rel="nofollow"><?= Yii::t('app', 'Регионы') ?></a>
                 </li>
 

@@ -41,7 +41,7 @@ if ($productsSort)
         <br>
         <hr>
         <br>
-        <div class="row">
+        <div class="row row-flex">
             <?= $this->render('/partials/category/_category-options-down', [
 
                 'categoriesData' => $categoriesData,

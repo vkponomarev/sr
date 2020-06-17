@@ -12,7 +12,7 @@
 
         <hr class="text-hr">
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <?php
                 $carousel = [
                     [
@@ -56,7 +56,7 @@
                 ?>
 
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <span class="text-header-two">Мы являемся официальным дистрибьютором спецтехники и запчастей для погрузчиков JAC.</span><br><br>
                 JAC - Качественная техника для склада из Китая.<br><br>
                 По функциональным и техническим характеристикам JAC наиболее схож с погрузчиками Toyota.<br><br>
@@ -81,7 +81,7 @@
         <hr class="text-hr">
         <div class="row">
 
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <span class="text-header-two">Организаторы «Формулы-1» выбрали из множества претендентов именно погрузчики, предоставляемые нашей компанией.
 
                 </span><br><br>
@@ -97,7 +97,7 @@
 
             </div>
 
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <?php
                 $carousel = [
                     [
