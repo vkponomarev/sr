@@ -25,11 +25,15 @@ class ContactForm extends Model
     {
         return [
             // name, email, subject and body are required
-            [['name', 'phoneNumber'], 'required'],
+            [['name', 'phoneNumber', 'email'], 'required'],
             // email has to be a valid email address
-            //['email', 'email'],
+            ['email', 'email'],
+            [['phoneNumber'], 'filter', 'filter' => function ($value) {
+                $result = preg_replace("/(\+7)(\d{3})(\d{3})(\d{2})(\d{2})/", "$1 ($2) $3-$4-$5", $value);
+                return $result;
+            }],
             // verifyCode needs to be entered correctly
-            //['verifyCode', 'captcha'],
+            ['verifyCode', 'captcha'],
         ];
     }
 

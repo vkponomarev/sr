@@ -11,6 +11,8 @@
     <div class="container main-page-headers">
         <a name="production"></a>Наша продукция
     </div>
+    <br>
+    <hr>
     <div class="container">
 
 <?php foreach ($categoriesData as $category):?>

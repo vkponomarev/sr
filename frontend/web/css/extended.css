@@ -629,8 +629,25 @@ img.brand-image{
 
 .text-header-two {
     font-weight: bold;
-    font-size: 18px;
-    color: #455f70;
+    font-size: 25px;
+    color: #d68500;
+}
+
+.text-header-three {
+
+    text-align: center;
+
+}
+
+.carousel-div {
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+
+.simple-text {
+    font-size: 24px;
+    color: #909090;
 }
 
 .div-small-info {

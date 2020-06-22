@@ -41,7 +41,7 @@ Yii::$app->params['senderName'] = 'Admin';
     <div class="modal-dialog" role="document">
         <div class="modal-content">
 
-            <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
+            <?php $form = ActiveForm::begin(['id' => 'contact-form', 'enableAjaxValidation' => true]); ?>
 
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>

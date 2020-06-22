@@ -30,7 +30,7 @@
 
             </div>
 
-            <div class="main-text-and-pic col-xs-12 col-sm-6">
+            <div class="main-text-and-pic col-xs-12 col-sm-6"><br><br>
             <span class="main-text">
                 от официального дистрибьютора
             </span>
@@ -38,12 +38,13 @@
                 <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">
                     Получить<br>консультацию
                 </button>
+                <br><br>
                 <button type="button" class="btn btn-success main-btn" data-toggle="modal" data-target="#myModal">
                     Получить<br>прайс-лист
                 </button>
                 <br><br>
                 <span class="main-text">
-                Тел: 887497-79879-4
+                Тел: <?=  Yii::$app->params['phone'] ?>
             </span>
 
             </div>

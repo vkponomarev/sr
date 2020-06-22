@@ -11,7 +11,8 @@
         <div class="container main-page-headers">
             Наши партнеры по лизингу и кредитованию
         </div>
-        <br><br>
+        <br>
+        <hr>
         <div class="div-main-partners col-xs-4 col-sm-3 col-md-2">
 
             <img src="/files/documents/bank1.jpg" width="100%">

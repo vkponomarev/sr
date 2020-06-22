@@ -7,7 +7,7 @@
 use frontend\assets\AppAsset;
 use common\components\feedBack\FBFWidget;
 AppAsset::register($this);
-//echo $this->params['title'];
+
 
 //Url::home();
 
@@ -178,7 +178,7 @@ echo \newerton\fancybox\FancyBox::widget([
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
             <br> <br>
-            <span class="main-contacts-phone">ТЕЛ: 8967-445-445-4</span>
+            <span class="main-contacts-phone">ТЕЛ: <?= Yii::$app->params['phone'] ?></span>
         </div>
 
     </div>

@@ -79,7 +79,8 @@ class MainPagesData
         else
             $domain = false;*/
 
-
+        //Записываем в глобальные переменные контакты:
+        $this->contacts();
 
         //(new \common\components\dump\Dump())->printR($domain);
 
@@ -96,6 +97,8 @@ class MainPagesData
         return $currentLanguage;
 
     }
+
+
 
 
     function languageSelection()
@@ -117,6 +120,13 @@ class MainPagesData
         Yii::$app->params['text']['description'] = $pageText['description'];
         Yii::$app->params['text']['text1'] = $pageText['text1'];
         Yii::$app->params['text']['text2'] = $pageText['text2'];
+
+    }
+
+    function contacts()
+    {
+
+        (new MainPagesDataContacts())->contacts();
 
     }
 
