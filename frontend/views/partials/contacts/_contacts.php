@@ -19,13 +19,13 @@
 
         </div>
         <hr><br><br>
-        <div class="div-main-contacts col-xs-12 col-sm-12 col-md-6">
+        <div class="div-main-contacts col-xs-12 col-sm-6 col-md-6">
 
 
-            <img src="/files/contacts.jpg" width="100%">
+            <img class="contact-image"src="/files/contacts2.jpg" width="100%">
         </div>
 
-        <div class="div-main-contacts col-xs-12 col-sm-12 col-md-6">
+        <div class="div-main-contacts col-xs-12 col-sm-6 col-md-6">
             <div class="contact-form">
                 <span class="main-contacts-phone-header">Телефон:</span><br><br>
                 <span class="main-contacts-phone"><?=  Yii::$app->params['phone'] ?></span><br><br>

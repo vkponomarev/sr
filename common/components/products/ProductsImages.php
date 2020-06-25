@@ -375,6 +375,344 @@ class ProductsImages
             4 => 'bdd-20-cabin-1473-jac.jpg',
         ];
 
+
+        $images[47] = [
+
+            1 => 'toyota-8fgj358fgjf35-3.5.png',
+            2 => 'toyota-8fgj358fgjf35-3.5.png',
+            3 => 'toyota-8fgj358fgjf35-3.5.png',
+        ];
+
+
+        $images[48] = [
+
+            1 => 'toyota-8fgj358fgjf35-3.5.png',
+            2 => 'toyota-8fgj358fgjf35-3.5.png',
+            3 => 'toyota-8fgj358fgjf35-3.5.png',
+        ];
+
+
+        $images[49] = [
+
+            1 => 'toyota-8fgj358fgjf35-3.5.png',
+            2 => 'toyota-8fgj358fgjf35-3.5.png',
+            3 => 'toyota-8fgj358fgjf35-3.5.png',
+        ];
+
+        $images[50] = [
+
+            1 => 'toyota-8fgj358fgjf35-3.5.png',
+            2 => 'toyota-8fgj358fgjf35-3.5.png',
+            3 => 'toyota-8fgj358fgjf35-3.5.png',
+        ];
+        $images[51] = [
+
+            1 => 'toyota-8fgj358fgjf35-3.5.png',
+            2 => 'toyota-8fgj358fgjf35-3.5.png',
+            3 => 'toyota-8fgj358fgjf35-3.5.png',
+        ];
+
+        $images[52] = [
+
+            1 => 'toyota-8fgj358fgjf35-3.5.png',
+            2 => 'toyota-8fgj358fgjf35-3.5.png',
+            3 => 'toyota-8fgj358fgjf35-3.5.png',
+        ];
+
+        $images[53] = [
+
+            1 => 'toyota-8fgj358fgjf35-3.5.png',
+            2 => 'toyota-8fgj358fgjf35-3.5.png',
+            3 => 'toyota-8fgj358fgjf35-3.5.png',
+        ];
+
+        $images[54] = [
+
+            1 => 'toyota-8fgc45u-54.png',
+            2 => 'toyota-8fgc45u-54.png',
+            3 => 'toyota-8fgc45u-54.png',
+        ];
+
+        $images[55] = [
+
+            1 => 'toyota-8fgc45u-54.png',
+            2 => 'toyota-8fgc45u-54.png',
+            3 => 'toyota-8fgc45u-54.png',
+        ];
+
+        $images[56] = [
+
+            1 => 'toyota-02-7fd10-56.png',
+            2 => 'toyota-02-7fd10-56.png',
+            3 => 'toyota-02-7fd10-56.png',
+        ];
+
+        $images[57] = [
+
+            1 => 'toyota-62-8fd15-57.jpg',
+            2 => 'toyota-62-8fd15-57.jpg',
+            3 => 'toyota-62-8fd15-57.jpg',
+        ];
+
+        $images[58] = [
+
+            1 => 'toyota-62-8fd15-57.jpg',
+            2 => 'toyota-62-8fd15-57.jpg',
+            3 => 'toyota-62-8fd15-57.jpg',
+        ];
+        $images[59] = [
+
+            1 => 'toyota-62-7fd20-59.jpg',
+            2 => 'toyota-62-7fd20-59.jpg',
+            3 => 'toyota-62-7fd20-59.jpg',
+        ];
+
+        $images[60] = [
+
+            1 => 'toyota-62-7fd20-59.jpg',
+            2 => 'toyota-62-7fd20-59.jpg',
+            3 => 'toyota-62-7fd20-59.jpg',
+        ];
+
+        $images[61] = [
+
+            1 => 'toyota-62-7fd20-59.jpg',
+            2 => 'toyota-62-7fd20-59.jpg',
+            3 => 'toyota-62-7fd20-59.jpg',
+        ];
+
+        $images[62] = [
+
+            1 => 'toyota-02-7fd40-62.jpg',
+            2 => 'toyota-02-7fd40-62.jpg',
+            3 => 'toyota-02-7fd40-62.jpg',
+        ];
+
+        $images[63] = [
+
+            1 => 'toyota-02-7fd40-62.jpg',
+            2 => 'toyota-02-7fd40-62.jpg',
+            3 => 'toyota-02-7fd40-62.jpg',
+        ];
+
+        $images[64] = [
+
+            1 => 'toyota-02-7fd40-62.jpg',
+            2 => 'toyota-02-7fd40-62.jpg',
+            3 => 'toyota-02-7fd40-62.jpg',
+        ];
+
+        $images[65] = [
+
+            1 => 'toyota-5fd60-65.jpg',
+            2 => 'toyota-5fd60-65.jpg',
+            3 => 'toyota-5fd60-65.jpg',
+        ];
+
+        $images[66] = [
+
+            1 => 'toyota-5fd60-65.jpg',
+            2 => 'toyota-5fd60-65.jpg',
+            3 => 'toyota-5fd60-65.jpg',
+        ];
+
+        $images[67] = [
+
+            1 => 'toyota-5fd60-65.jpg',
+            2 => 'toyota-5fd60-65.jpg',
+            3 => 'toyota-5fd60-65.jpg',
+        ];
+
+        $images[68] = [
+
+            1 => 'toyota-4fd100-68.jpg',
+            2 => 'toyota-4fd100-68.jpg',
+            3 => 'toyota-4fd100-68.jpg',
+
+        ];
+
+        $images[69] = [
+
+            1 => 'toyota-7fb15-69.png',
+            2 => 'toyota-7fb15-69.png',
+            3 => 'toyota-7fb15-69.png',
+
+        ];
+
+        $images[70] = [
+
+            1 => 'toyota-7fb15-69.png',
+            2 => 'toyota-7fb15-69.png',
+            3 => 'toyota-7fb15-69.png',
+
+        ];
+
+
+        $images[71] = [
+
+            1 => 'toyota-7fb15-69.png',
+            2 => 'toyota-7fb15-69.png',
+            3 => 'toyota-7fb15-69.png',
+
+        ];
+
+        $images[72] = [
+
+            1 => 'toyota-7fb15-69.png',
+            2 => 'toyota-7fb15-69.png',
+            3 => 'toyota-7fb15-69.png',
+
+        ];
+
+
+        $images[73] = [
+
+            1 => 'komatsu-fd10t-21-73.jpg',
+            2 => 'komatsu-fd10t-21-73.jpg',
+            3 => 'komatsu-fd10t-21-73.jpg',
+
+        ];
+
+        $images[74] = [
+
+            1 => 'komatsu-fd15t-21-73.jpg',
+            2 => 'komatsu-fd15t-21-73.jpg',
+            3 => 'komatsu-fd15t-21-73.jpg',
+
+        ];
+
+        $images[75] = [
+
+            1 => 'komatsu-fd20t-17-75.jpg',
+            2 => 'komatsu-fd20t-17-75.jpg',
+            3 => 'komatsu-fd20t-17-75.jpg',
+
+        ];
+
+
+        $images[76] = [
+
+            1 => 'komatsu-fd25t-17-76.jpg',
+            2 => 'komatsu-fd25t-17-76.jpg',
+            3 => 'komatsu-fd25t-17-76.jpg',
+
+        ];
+
+
+        $images[77] = [
+
+            1 => 'komatsu-fd30t-17-77.jpg',
+            2 => 'komatsu-fd30t-17-77.jpg',
+            3 => 'komatsu-fd30t-17-77.jpg',
+
+        ];
+
+        $images[78] = [
+
+            1 => 'komatsu-fd35at-17-78.jpg',
+            2 => 'komatsu-fd35at-17-78.jpg',
+            3 => 'komatsu-fd35at-17-78.jpg',
+
+        ];
+
+        $images[79] = [
+
+            1 => 'komatsu-fd60-10-79.jpg',
+            2 => 'komatsu-fd60-10-79.jpg',
+            3 => 'komatsu-fd60-10-79.jpg',
+
+        ];
+
+        $images[80] = [
+
+            1 => 'komatsu-fd70-10-80.jpg',
+            2 => 'komatsu-fd70-10-80.jpg',
+            3 => 'komatsu-fd70-10-80.jpg',
+
+        ];
+
+        $images[81] = [
+
+            1 => 'komatsu-fd80-10-81.jpg',
+            2 => 'komatsu-fd80-10-81.jpg',
+            3 => 'komatsu-fd80-10-81.jpg',
+
+        ];
+
+
+        $images[82] = [
+
+            1 => 'komatsu-fd100-8-82.jpg',
+            2 => 'komatsu-fd100-8-82.jpg',
+            3 => 'komatsu-fd100-8-82.jpg',
+
+        ];
+
+        $images[83] = [
+
+            1 => 'komatsu-fd15t-21-73.jpg',
+            2 => 'komatsu-fd15t-21-73.jpg',
+            3 => 'komatsu-fd15t-21-73.jpg',
+
+        ];
+
+        $images[84] = [
+
+            1 => 'komatsu-fd20t-17-75.jpg',
+            2 => 'komatsu-fd20t-17-75.jpg',
+            3 => 'komatsu-fd20t-17-75.jpg',
+
+        ];
+
+
+        $images[85] = [
+
+            1 => 'komatsu-fd25t-17-76.jpg',
+            2 => 'komatsu-fd25t-17-76.jpg',
+            3 => 'komatsu-fd25t-17-76.jpg',
+
+        ];
+
+        $images[86] = [
+
+            1 => 'komatsu-fd30t-17-77.jpg',
+            2 => 'komatsu-fd30t-17-77.jpg',
+            3 => 'komatsu-fd30t-17-77.jpg',
+
+        ];
+
+        $images[87] = [
+
+            1 => 'komatsu-fd35at-17-78.jpg',
+            2 => 'komatsu-fd35at-17-78.jpg',
+            3 => 'komatsu-fd35at-17-78.jpg',
+
+        ];
+
+        $images[88] = [
+
+            1 => 'komatsu-fb15-12-88.jpg',
+            2 => 'komatsu-fb15-12-88.jpg',
+            3 => 'komatsu-fb15-12-88.jpg',
+
+        ];
+        $images[89] = [
+
+            1 => 'komatsu-fb20a-12-89.jpg',
+            2 => 'komatsu-fb20a-12-89.jpg',
+            3 => 'komatsu-fb20a-12-89.jpg',
+
+        ];
+
+        $images[90] = [
+
+            1 => 'komatsu-fb30-12-90.jpg',
+            2 => 'komatsu-fb30-12-90.jpg',
+            3 => 'komatsu-fb30-12-90.jpg',
+
+        ];
+
+
         return $images;
     }
 

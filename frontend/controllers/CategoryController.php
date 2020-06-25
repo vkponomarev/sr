@@ -56,13 +56,18 @@ class CategoryController extends Controller
         $category = new Category();
         $categoryData = $category->data($mainPagesData->pageId, $mainPagesData->currentLanguage['id']);
 
-
+        
+        
+        
         $categories = new Categories();
         $categoriesConfig = $categories->config($categoryData);
         $categoriesData = $categories->data($categoriesConfig['mainPage'], $mainPagesData->currentLanguage['id']);
         $categoriesSplit = $categories->split($categoriesData);
 
-        //(new \common\components\dump\Dump())->printR($categoriesConfig);
+        $categoriesParent = $categories->parent($mainPagesData->pageId, $mainPagesData->currentLanguage['id']);
+
+        //(new \common\components\dump\Dump())->printR($categoriesParent);
+
         //$categoryConfig = $category->config($mainPagesData->pageId);
 
         $products = new Products();
@@ -70,8 +75,6 @@ class CategoryController extends Controller
 
         $productsSort = $products->sort($productsData, $categoryData);
         //(new \common\components\dump\Dump())->printR($productsData);
-
-
 
         $productsImages = $products->images();
         //(new \common\components\dump\Dump())->printR($productsImage);
@@ -86,6 +89,7 @@ class CategoryController extends Controller
             'productsSort' => $productsSort,
             'productsImages' => $productsImages,
             'categoriesSplit' => $categoriesSplit,
+            'categoriesParent' => $categoriesParent,
         ]);
 
     }

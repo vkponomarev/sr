@@ -12,6 +12,7 @@ $productsMotor = 0;
 $productsCarrying = 0;
 $productsBrand = 0;
 $productsTypeSecond = 0;
+$categoryType = 0;
 ?>
 
 
@@ -30,7 +31,9 @@ $productsTypeSecond = 0;
         <?php if ($category['products_type_second'] <> 0): ?>
             <?php $productsTypeSecond++ ?>
         <?php endif; ?>
-
+        <?php if ($category['category_type'] <> 0): ?>
+            <?php $categoryType++ ?>
+        <?php endif; ?>
     <?php endforeach; ?>
 
     <?php if ($productsCarrying <> 0): ?>
@@ -124,6 +127,23 @@ $productsTypeSecond = 0;
                 <?php endif; ?>
             <?php endforeach; ?>
 
+        </div>
+    <?php endif; ?>
+
+
+    <?php if ($categoriesParent): ?>
+        <div class="row">
+            <?php $count = 0; ?>
+            <?php foreach ($categoriesParent as $category): ?>
+                <?php if ($category['category_type'] <> 0): ?>
+                    <?php if ($count >= 1): ?>,
+                    <?php endif; ?>
+
+                    <?php $count++; ?>
+                    <a class="a-category-options" href="/category/<?= $category['url'] ?>/">
+                        <?= $category['plates_title'] ?></a>
+                <?php endif; ?>
+            <?php endforeach; ?>
         </div>
     <?php endif; ?>
 

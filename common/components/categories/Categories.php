@@ -18,6 +18,14 @@ class Categories
 
     }
 
+    function parent($ID, $languageID)
+    {
+
+        return (new CategoriesParent())->data($ID, $languageID);
+
+    }
+
+
     function split($categoriesData)
     {
 

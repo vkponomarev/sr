@@ -14,6 +14,7 @@ class CategoriesSplit
         $productsCarrying = array();
         $productsMotor = array();
         $productsTypeSecond = array();
+        $categoryType = array();
         foreach ($categoriesData as $item) {
 
             if ($item['products_brand'] <> 0) {
@@ -40,6 +41,13 @@ class CategoriesSplit
 
             }
 
+            if ($item['category_type'] <> 0) {
+
+                array_push($categoryType, $item);
+
+            }
+
+
         }
 
         //$categoriesDataMap = ArrayHelper::map($categoriesData,'url','plates_title');
@@ -48,6 +56,7 @@ class CategoriesSplit
             'productsCarrying' => ArrayHelper::map($productsCarrying,'url','plates_title'),
             'productsMotor' => ArrayHelper::map($productsMotor,'url','plates_title'),
             'productsTypeSecond' => ArrayHelper::map($productsTypeSecond,'url','plates_title'),
+            'categoryType' => ArrayHelper::map($categoryType,'url','plates_title'),
         ];
     }
 

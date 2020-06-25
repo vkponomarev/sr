@@ -11,24 +11,10 @@
     'categoriesData' => $categoriesData,
 ]); ?>
 
-<div class="wrap wrap-contacts">
-
-
-
-    <div class="container">
-        <div class="div-second-contacts col-xs-12 col-sm-6">
-
-            <i class="fa fa-phone icon-main-second" aria-hidden="true"></i><br>
-            <?=  Yii::$app->params['phone'] ?>
-
-        </div>
-
-        <div class="div-second-contacts col-xs-12 col-sm-6">
-
-            <i class="fa fa-envelope icon-main-second" aria-hidden="true"></i><br>
-            <?=  Yii::$app->params['email'] ?>
-
-        </div>
-    </div>
-
+<div class="wrap main-spacer">
 </div>
+
+
+<?= $this->render('/partials/contacts/_contacts', [
+
+]); ?>

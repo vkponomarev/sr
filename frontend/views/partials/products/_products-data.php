@@ -47,6 +47,7 @@ if ($productsSort)
                 'categoriesData' => $categoriesData,
                 'categoryData' => $categoryData,
                 'categoriesSplit' => $categoriesSplit,
+                'categoriesParent' => $categoriesParent,
 
             ]); ?>
         </div>

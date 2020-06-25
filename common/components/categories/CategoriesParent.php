@@ -5,10 +5,10 @@ namespace common\components\categories;
 use Yii;
 use yii\web\NotFoundHttpException;
 
-class CategoriesData
+class CategoriesParent
 {
 
-    public function data($parentID, $languageID)
+    public function data($ID, $languageID)
     {
 
         $data = Yii::$app->db
@@ -33,7 +33,7 @@ class CategoriesData
             from
             pages
             join pages_text on pages_text.pages_id = pages.id
-            where pages.parent_id = "' . $parentID . '" and pages_text.languages_id = "' . $languageID . '"
+            where pages.parent_id = "' . $ID . '" and pages_text.languages_id = "' . $languageID . '"
             order by pages.sort
             ')
             ->queryAll();
