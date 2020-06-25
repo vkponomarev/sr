@@ -131,6 +131,24 @@
 
 }
 
+table{
+
+    font-size: 20px!important;
+
+}
+
+tr{
+
+    border-bottom: 1px solid #f1f1f1;
+
+}
+
+td {
+
+    padding: 10px!important;
+
+}
+
 @media (max-width: 767px) {
 
     .contact-form {

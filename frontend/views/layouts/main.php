@@ -24,12 +24,23 @@ AppAsset::register($this);
 
 
     <meta name="description" content="<?= Yii::$app->params['text']['description'] ?>">
-    <?= $this->render('/partials/link-prev-next/_link-prev-next'); ?>
     <?php $this->registerCsrfMetaTags() ?>
 
 
     <title><?= Yii::$app->params['text']['title'] ?></title>
     <?php $this->head() ?>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170840760-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-170840760-1');
+    </script>
+
 
 </head>
 <body role="document">
@@ -190,7 +201,7 @@ echo \newerton\fancybox\FancyBox::widget([
 </script>
 
 <?php $this->endBody() ?>
-
+<?= $this->render('/partials/counters/_counters'); ?>
 <?= \common\components\feedBack\FBFWidget::widget([]) ?>
 </body>
 </html>
