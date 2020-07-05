@@ -58,6 +58,7 @@ return [
                 '/category/<url>' => 'category/category',
                 '/products/<url>' => 'products/index',
 
+                '/ads/forklift' => 'ads/index',
 
                 //CMS
                 //'/cms/' => 'cms/index',

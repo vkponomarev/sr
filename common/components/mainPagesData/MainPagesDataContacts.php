@@ -40,7 +40,7 @@ class MainPagesDataContacts
     {
 
         Yii::$app->params['phone'] = '8917-358-88-79';
-        Yii::$app->params['email'] = 'skladder@gmail.com';
+        Yii::$app->params['email'] = 'skladder.ru@gmail.com';
 
     }
 

@@ -1,18 +1,15 @@
 <?php
-
 namespace frontend\controllers;
 
-
-use common\components\albums\Albums;
-use common\components\artists\Artists;
+use Codeception\Module\Yii2;
 use common\components\categories\Categories;
 use common\components\category\Category;
 use common\components\mainPagesData\MainPagesData;
-use common\components\product\Product;
 use common\components\products\Products;
-use common\components\song\Song;
-use common\components\songs\Songs;
-use yii\helpers\ArrayHelper;
+
+use common\components\subDomain\SubDomain;
+use common\components\subDomains\SubDomains;
+use yii;
 use yii\web\Controller;
 
 
@@ -24,41 +21,34 @@ use yii\web\Controller;
  *
  *
  */
-class CategoryController extends Controller
+class AdsController extends Controller
 {
 
+    public $domain = 'false';
+
+    public function init() {
+/*
+        $subDomain = new SubDomain();
+        $subDomainData = $subDomain->data();
+        $subDomainCheck = $subDomain->check($subDomainData);
+
+        if ($subDomainCheck)
+            $domain = $subDomainCheck;
+
+        (new \common\components\dump\Dump())->printR($domain);*/
+    }
 
     public function actionIndex()
     {
 
-        $mainPagesData = new MainPagesData('products-2', 'pages');
-
-        $category = new Category();
-        $categoryData = $category->data(2, $mainPagesData->currentLanguage['id']);
-
-        $categories = new Categories();
-        $categoriesData = $categories->data(2, $mainPagesData->currentLanguage['id']);
-        return $this->render('index', [
-
-            'categoryData' => $categoryData,
-            'categoriesData' => $categoriesData,
-
-
-        ]);
-
-    }
-
-    public function actionCategory($url)
-    {
-
-        $mainPagesData = new MainPagesData($url, 'pages');
+        $this->layout = 'main-ads.php';
+        //(new \common\components\dump\Dump())->printR($domain);
+        $mainPagesData = new MainPagesData('forklift-trucks-5','pages');
+        //(new \common\components\dump\Dump())->printR($domain);
 
         $category = new Category();
         $categoryData = $category->data($mainPagesData->pageId, $mainPagesData->currentLanguage['id']);
 
-        
-        
-        
         $categories = new Categories();
         $categoriesConfig = $categories->config($categoryData);
         $categoriesData = $categories->data($categoriesConfig['mainPage'], $mainPagesData->currentLanguage['id']);
@@ -76,11 +66,15 @@ class CategoryController extends Controller
         //(new \common\components\dump\Dump())->printR($productsData);
 
         $productsImages = $products->images();
-        //(new \common\components\dump\Dump())->printR($productsImage);
-        
-        //$categoriesDataMap = ArrayHelper::map($categoriesData,'url','plates_title');
-        //(new \common\components\dump\Dump())->printR($categoriesDataMap);
-        return $this->render('category', [
+
+        //$products = new Products();
+        //$categoryData = $products->data(2, $mainPagesData->currentLanguage['id']);
+        //(new \common\components\dump\Dump())->printR();
+
+
+
+
+        return $this->render('folklift', [
 
             'categoryData' => $categoryData,
             'categoriesData' => $categoriesData,
@@ -89,9 +83,12 @@ class CategoryController extends Controller
             'productsImages' => $productsImages,
             'categoriesSplit' => $categoriesSplit,
             'categoriesParent' => $categoriesParent,
+
         ]);
 
     }
+
+   
 
 
 }
