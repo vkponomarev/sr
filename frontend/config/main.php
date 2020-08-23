@@ -60,6 +60,18 @@ return [
 
                 '/ads/forklift' => 'ads/index',
                 '/ads/forklift-kz' => 'ads/kz',
+                '/ads/forklift-ab' => 'ads/ab',
+                '/ads/forklift-az' => 'ads/az',
+                '/ads/forklift-ar' => 'ads/ar',
+                '/ads/forklift-bl' => 'ads/bl',
+                '/ads/forklift-ki' => 'ads/ki',
+                '/ads/forklift-mo' => 'ads/mo',
+                '/ads/forklift-ta' => 'ads/ta',
+                '/ads/forklift-tu' => 'ads/tu',
+                '/ads/forklift-uz' => 'ads/uz',
+                '/ads/forklift-uk' => 'ads/uk',
+                '/ads/forklift-os' => 'ads/os',
+
 
                 //CMS
                 //'/cms/' => 'cms/index',
