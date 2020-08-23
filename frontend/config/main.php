@@ -59,6 +59,7 @@ return [
                 '/products/<url>' => 'products/index',
 
                 '/ads/forklift' => 'ads/index',
+                '/ads/forklift-kz' => 'ads/kz',
 
                 //CMS
                 //'/cms/' => 'cms/index',
